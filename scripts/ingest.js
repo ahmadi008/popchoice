@@ -24,7 +24,7 @@ import { createClient } from "@supabase/supabase-js";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import dotenv from "dotenv";
+
 
 // ---- Minimal .env loader (avoid extra deps) ----
 function loadEnv() {
