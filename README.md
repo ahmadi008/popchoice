@@ -5,6 +5,7 @@
 
 This is the complete solution for **Week 11 – PopChoice**. Every line of code is here,
 along with a step-by-step guide a complete beginner can follow from zero to a deployed app.
+live demo link : https://popchoice-nu.vercel.app/
 
 ---
 
