@@ -74,11 +74,12 @@ function App() {
 
       // Step 5 — show
       setRecommendation({
-        title: best.title,
-        releaseYear: best.release_year,
-        content: best.content,
-        explanation
-      });
+  title: best.title,
+  releaseYear: best.release_year,
+  content: best.content,
+  explanation,
+  posterUrl: best.poster_url
+});
       setView("result");
     } catch (err) {
       console.error(err);

@@ -5,10 +5,11 @@
   "type": "module",
   "description": "PopChoice — AI-powered movie recommendation app (RAG with embeddings + Supabase vector search + LLM)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "ingest": "node scripts/ingest.js"
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "ingest": "node scripts/ingest.js",
+  "add-posters": "node scripts/add-posters.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",

@@ -251,7 +251,34 @@ select.field__input {
   font-weight: 700;
   color: var(--primary);
 }
+.result__poster-wrap {
+  margin: 0 0 18px;
+  display: flex;
+  justify-content: center;
+}
 
+.result__poster {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  background: var(--surface-muted);
+}
+
+@media (min-width: 640px) {
+  .result { position: relative; }
+  .result__poster-wrap {
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    margin: 0;
+  }
+  .result__poster { width: 180px; }
+  .result__title { padding-right: 200px; }
+  .result__year { padding-right: 200px; }
+}
 .result__title {
   margin: 0;
   font-size: clamp(28px, 4vw, 38px);
