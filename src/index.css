@@ -381,6 +381,9 @@ select.field__input {
   .card { padding: 24px; border-radius: 18px; }
   .card__title { font-size: 22px; }
   .brand__name { font-size: 32px; }
+  .result__poster { max-width: 200px; }
+  .result__poster-wrap { margin: 0 0 14px; }
+  .result__title { font-size: 24px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
